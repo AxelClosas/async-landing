@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="./assets/main.js"></script>
+</head>
+
+<body>
+    <div class="relative bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto">
+            <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+                <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
+                    fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+                    <polygon points="50,0 100,0 50,100 0,100" />
+                </svg>
+                <div>
+                    <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+                        <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start"
+                            aria-label="Global">
+                            <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+                                <div class="flex items-center justify-between w-full md:w-auto">
+                                    <a href="#">
+                                        <span class="sr-only">Title</span>
+                                        <img class="h-8 w-auto sm:h-10"
+                                            src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+                                <a href="#" class="font-medium text-gray-500 hover:text-gray-900">About</a>
+                                <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Projects</a>
+                                <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Contact</a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+                <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                    <div class="sm:text-center lg:text-left">
+                        <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                            <span class="block xl:inline">Saul Espeche</span>
+                            <span class="block text-indigo-600 xl:inline">@zaulzapart3148</span>
+                        </h1>
+                        <p
+                            class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                            Me llamo Saúl, soy estudiantes del tercer año de artes plásticas, me gusta dibujar, pintar e
+                            ilustrar la mayor parte de mi día y a su vez me gusta ir aprendiendo sobre múltiples cosas,
+                            y en un tiempo futuro me gustaría tener mi propio taller de dibujo o pintura y dar clases
+                        </p>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+            <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="../public/hero.jpg" alt="">
+        </div>
+    </div>
+    <div class="bg-white">
+        <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+            <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Last YouTube Videos</h2>
+            <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8" id="content">
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-50">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                <span class="block">Contact</span>
+                <span class="block text-indigo-600">keep in touch.</span>
+            </h2>
+            <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0" id="networks">
+                <a href="https://www.facebook.com/profile.php?id=100063667699336" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48"
+                        style=" fill:#000000;">
+                        <linearGradient id="awSgIinfw5_FS5MLHI~A9a_yGcWL8copNNQ_gr1" x1="6.228" x2="42.077" y1="4.896"
+                            y2="43.432" gradientUnits="userSpaceOnUse">
+                            <stop offset="0" stop-color="#0d61a9"></stop>
+                            <stop offset="1" stop-color="#16528c"></stop>
+                        </linearGradient>
+                        <path fill="url(#awSgIinfw5_FS5MLHI~A9a_yGcWL8copNNQ_gr1)"
+                            d="M42,40c0,1.105-0.895,2-2,2H8c-1.105,0-2-0.895-2-2V8c0-1.105,0.895-2,2-2h32	c1.105,0,2,0.895,2,2V40z">
+                        </path>
+                        <path
+                            d="M25,38V27h-4v-6h4v-2.138c0-5.042,2.666-7.818,7.505-7.818c1.995,0,3.077,0.14,3.598,0.208	l0.858,0.111L37,12.224L37,17h-3.635C32.237,17,32,18.378,32,19.535V21h4.723l-0.928,6H32v11H25z"
+                            opacity=".05"></path>
+                        <path
+                            d="M25.5,37.5v-11h-4v-5h4v-2.638c0-4.788,2.422-7.318,7.005-7.318c1.971,0,3.03,0.138,3.54,0.204	l0.436,0.057l0.02,0.442V16.5h-3.135c-1.623,0-1.865,1.901-1.865,3.035V21.5h4.64l-0.773,5H31.5v11H25.5z"
+                            opacity=".07"></path>
+                        <path fill="#fff"
+                            d="M33.365,16H36v-3.754c-0.492-0.064-1.531-0.203-3.495-0.203c-4.101,0-6.505,2.08-6.505,6.819V22h-4v4	h4v11h5V26h3.938l0.618-4H31v-2.465C31,17.661,31.612,16,33.365,16z">
+                        </path>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/zaulzapart/" target="_blank" rel="noopener noreferrer">
+                    <svg style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421"
+                        x="0px" y="0px" width="48" height="48" viewBox="0 0 24 24" xml:space="preserve"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path style="fill:none" d="M0 0h24v24H0z" />
+                        <path d="M22 7a5 5 0 0 0-5-5H7a5 5 0 0 0-5 5v10a5 5 0 0 0 5 5h10a5 5 0 0 0 5-5V7z"
+                            style="fill:url(#a)" />
+                        <path
+                            d="M14.958 5.005c2.091.02 4.016 1.815 4.037 4.037.007 1.972.007 3.944 0 5.916-.02 2.083-1.815 4.016-4.037 4.037-1.972.007-3.944.007-5.916 0-2.092-.02-4.016-1.815-4.037-4.037a833.313 833.313 0 0 1 0-5.916c.019-2.093 1.81-4.016 4.037-4.037 1.972-.007 3.944-.007 5.916 0zm-5.889.945c-1.623.005-3.103 1.412-3.119 3.098a968.258 968.258 0 0 0 0 5.904c.015 1.605 1.388 3.082 3.098 3.098 1.968.006 3.936.006 5.904 0 1.609-.015 3.082-1.388 3.098-3.098.006-1.968.006-3.936 0-5.904-.015-1.616-1.415-3.082-3.098-3.098-1.961-.006-3.922 0-5.883 0z"
+                            style="fill:#fff;fill-rule:nonzero" />
+                        <path
+                            d="M12.024 8.5c1.618.015 3.126 1.263 3.422 2.862a3.575 3.575 0 0 1-1.027 3.178c-.935.89-2.382 1.208-3.622.754-1.386-.507-2.361-1.968-2.296-3.448C8.58 10.078 10.142 8.506 12 8.5h.024zm-.04.947c-1.155.011-2.244.887-2.484 2.025-.243 1.151.419 2.428 1.506 2.887 1.187.502 2.72-.061 3.293-1.233.593-1.211.034-2.856-1.218-3.441a2.592 2.592 0 0 0-1.097-.238z"
+                            style="fill:#fff;fill-rule:nonzero" />
+                        <path
+                            d="M16.5 8.227a.727.727 0 0 0-.727-.727h-.046a.727.727 0 0 0-.727.727v.023c0 .199.079.39.22.53a.75.75 0 0 0 1.28-.53v-.023z"
+                            style="fill:#fff" />
+                        <defs>
+                            <radialGradient cx="0" cy="0" gradientTransform="translate(2 21.5) scale(27.933)"
+                                gradientUnits="userSpaceOnUse" id="a" r="1">
+                                <stop offset="0" style="stop-color:#ff8100;stop-opacity:1" />
+                                <stop offset=".19" style="stop-color:#ff7209;stop-opacity:1" />
+                                <stop offset=".32" style="stop-color:#f55e16;stop-opacity:1" />
+                                <stop offset=".48" style="stop-color:#d92938;stop-opacity:1" />
+                                <stop offset="1" style="stop-color:#9100ff;stop-opacity:1" />
+                            </radialGradient>
+                        </defs>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
